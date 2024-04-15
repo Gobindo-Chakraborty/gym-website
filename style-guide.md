@@ -8,7 +8,7 @@
 <script src="script.js"></script>
 ```
 
-`` `css
+``` css
 font-size: 20px;
 background-color: orange;
 ```
