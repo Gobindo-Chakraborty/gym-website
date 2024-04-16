@@ -1,0 +1,26 @@
+:root {
+    --fontFamily-roboto: roboto;
+}
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+::-webkit-scrollbar {width: 5px;}
+::-webkit-scrollbar-track {background-color: transparent;}
+::-webkit-scrollbar-thumb {background-color: green;}
+
+/* Custom */
+
+.headings {
+    font-family: var(--fontFamily-roboto);
+}
+
