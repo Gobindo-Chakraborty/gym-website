@@ -24,3 +24,7 @@ li {
     font-family: var(--fontFamily-roboto);
 }
 
+.headings\:hover:hover {
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+}
