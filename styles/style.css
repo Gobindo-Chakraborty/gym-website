@@ -28,3 +28,9 @@ li {
     color: rgb(255, 0, 0);
     font-size: 3rem;
 }
+
+ion-icon {
+    --ionicon-stroke-width: 3rem;
+    font-size: 50px;
+    color: red;
+}
