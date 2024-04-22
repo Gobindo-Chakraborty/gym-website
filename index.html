@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>GYM website</title>
+    <title>Fitzone</title>
     
     <!-- SEO -->
-    <meta name="title" content="GYM website">
+    <meta name="title" content="fitzone">
     <meta name="discription" content="An awesome GYM website made by Gobindo Chakraborty">
 
     <!-- Favicon -->
@@ -17,19 +17,55 @@
     <link rel="stylesheet" href="./styles/style.css">
 
     <!-- Preload images -->
-    <link rel="Preload" as="image" href="./assets/demo-1.jpg">
+    <link rel="Preload" as="image" href="./assets/images/background.jpg">
 </head>
-<body id="top">
-    <img src="./assets/demo-1.jpg" alt="demo image" width="100%">
-    <h1>This is heading One</h1>
-    <h1 class="headings:hover headings">Second heading</h1>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/fitzone-logo.png" alt="fitzone logo">
+            </div>
+            <div class="menu-icon" onclick="menuClick()">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+            <div class="nav-items">
+                <a href="#" style="color: var(--orange);">Home</a>
+                <a href="#">Pages</a>
+                <a href="#">Blog</a>
+                <a href="#">Events</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
 
-    <br><br><br>
+    <!-- Home -->
+    <div class="home">
+        <img src="./assets/images/background.jpg" alt="background image" width="100%" height="auto">
+            <h1 class="big-text">Elevate your fitness journey. Enroll in our gym classes <br> now!</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem necessitatibus adipisci voluptatem numquam commodi magni doloremque maxime fuga repellat minima.</p>
+            <div class="video-icon">
+                <ion-icon name="play-circle-outline"></ion-icon>
+            </div>
+            <h1 class="medium-text">20 Years of service</h1>
+    </div>
 
-    <ion-icon name="close-circle-outline"></ion-icon>
+    <!-- footer -->
+    <div class="footer">
+        <div class="icons">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-pinterest"></ion-icon>
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </div>
+        <p>@All copyright reserved 2024</p>
+    </div>
 
 
-    <!-- ion-icon -->
+    <!-- Javascript -->
+    <script src="./javascript/script.js"></script>
+
+    <!-- Ion-icon -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
