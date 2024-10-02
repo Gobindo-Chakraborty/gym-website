@@ -1,72 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Fitzone</title>
-    
-    <!-- SEO -->
-    <meta name="title" content="fitzone">
-    <meta name="discription" content="An awesome GYM website made by Gobindo Chakraborty">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title & meta tags -->
+    <title>GYM website</title>
+    <meta name="title" content="Fitzone - Be your own" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <!-- Preload images -->
-    <link rel="Preload" as="image" href="./assets/images/background.jpg">
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="./assets/fitzone-logo.png" alt="fitzone logo">
-            </div>
-            <div class="menu-icon" onclick="menuClick()">
-                <ion-icon name="menu"></ion-icon>
-            </div>
-            <div class="nav-items">
-                <a href="#" style="color: var(--orange);">Home</a>
-                <a href="#">Pages</a>
-                <a href="#">Blog</a>
-                <a href="#">Events</a>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-    </header>
+    <link rel="preload" as="image" href="./assets/fitzone-logo.png" />
 
-    <!-- Home -->
-    <div class="home">
-        <img src="./assets/images/background.jpg" alt="background image" width="100%" height="auto">
-            <h1 class="big-text">Elevate your fitness journey. Enroll in our gym classes <br> now!</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem necessitatibus adipisci voluptatem numquam commodi magni doloremque maxime fuga repellat minima.</p>
-            <div class="video-icon">
-                <ion-icon name="play-circle-outline"></ion-icon>
-            </div>
-            <h1 class="medium-text">20 Years of service</h1>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/fitzone-logo.png"
+            alt="fitzone logo"
+            width="160"
+            height="50"
+          />
+        </a>
+        <div class="navbar">
+          <a href="#" class="home">Home</a>
+          <a href="#" class="about">About Us</a>
+          <a href="#" class="program">Program</a>
+          <a href="#" class="membership">Membership</a>
+          <a href="#" class="testimonials">Testimonials</a>
+        </div>
+        <a href="#" class="sign-up-btn">Sign Up</a>
+      </div>
     </div>
 
-    <!-- footer -->
-    <div class="footer">
-        <div class="icons">
-            <ion-icon name="logo-facebook"></ion-icon>
-            <ion-icon name="logo-instagram"></ion-icon>
-            <ion-icon name="logo-pinterest"></ion-icon>
-            <ion-icon name="logo-linkedin"></ion-icon>
-        </div>
-        <p>@All copyright reserved 2024</p>
-    </div>
-
-
-    <!-- Javascript -->
+    <!-- javascript -->
     <script src="./javascript/script.js"></script>
-
-    <!-- Ion-icon -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
+  </body>
 </html>
