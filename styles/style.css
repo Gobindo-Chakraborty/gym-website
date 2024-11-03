@@ -3,6 +3,17 @@ body {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
+  color: #23272e;
 }
 .header {
+  background-color: rgb(225, 235, 225);
+}
+.navbar {
+  padding: 5px;
+  overflow: auto;
+}
+.navbar a {
+  padding: 10px;
+  float: left;
 }
