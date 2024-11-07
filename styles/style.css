@@ -19,6 +19,7 @@ a {
 }
 .navbar {
   overflow: auto;
+  background-color: rgb(243, 243, 243);
 }
 .navbar a {
   padding: 10px;
