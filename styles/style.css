@@ -45,3 +45,30 @@ a {
   background-color: rgb(184, 205, 184);
   border-radius: 30px;
 }
+
+/* Services */
+#services {
+  width: 100%;
+  background-color: gray;
+  padding: 10px;
+}
+.card-container {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+}
+.card-header {
+  background-color: #23272e;
+  color: white;
+  padding: 5px;
+}
+.card-body {
+  padding: 5px;
+  background-color: gray;
+  color: white;
+}
+.card-footer {
+  background-color: green;
+  padding: 5px;
+  color: white;
+}
